@@ -1,17 +1,17 @@
-import LoginScreen from "@/component/latihan/loginScreen";
-import { useState } from "react";
+import HomeScreen from "@/component/latihan/homeScreen";
+import React, { useState } from "react";
 
 export default function Index() {
-  const [nama, setNama] = useState("somra");
+  // const [nama, setNama] = useState("somra");
   return (
     <>
-      <LoginScreen />
+      {/* <LoginScreen /> */}
       {/* <Latihan1 /> */}
       {/* <Latihan2 />
       <Latihan3 />
       <Latihan4 /> */}
 
-      {/* <HomeScreen /> */}
+      <HomeScreen />
     </>
   );
 }
