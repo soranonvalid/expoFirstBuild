@@ -1,5 +1,5 @@
-import HomeScreen from "@/component/latihan/homeScreen";
-import React, { useState } from "react";
+import DetailScreen from "@/component/latihan/detailScreen";
+import React from "react";
 
 export default function Index() {
   // const [nama, setNama] = useState("somra");
@@ -11,7 +11,8 @@ export default function Index() {
       <Latihan3 />
       <Latihan4 /> */}
 
-      <HomeScreen />
+      {/* <HomeScreen /> */}
+      <DetailScreen />
     </>
   );
 }
