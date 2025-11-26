@@ -29,7 +29,14 @@ const DetailScreen = () => {
       </View>
       <View style={styles.footer}>
         <TouchableOpacity style={styles.updateBtn}>
-          <Text style={{ color: "white", textAlign: "center" }}>Update</Text>
+          <Text
+            onPress={() => {
+              route.push(`/update/${id}`);
+            }}
+            style={{ color: "white", textAlign: "center" }}
+          >
+            Update
+          </Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.deleteBtn}>
           <Text style={{ color: "white", textAlign: "center" }}>Delete</Text>
